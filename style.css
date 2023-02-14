@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border: 1px solid grey;
+    padding: 10px;
+    color: rgb(87, 84, 84);
+    box-shadow: 2px 4px 12px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* temporary */
+    /* display: none; */
+}
+.menuContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.cashWithdrawContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    display: none;
+}
+.depositContainer{
+    display: none;
+}
+.transferAccountNumber{
+    margin: 20px 0px;
+}
+.transfer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.transferMoneyContainer{
+    display: none;
+}
+.depositMoney{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.depositInput{
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.depositaccnum{
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.form-group-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.withdraw{
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.maaainText{
+    text-align: center;
+}
+.cashWithdrawInput{
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#transfermoney{
+    width: 9vw;
+    text-align: center;
+    height: 6vh;
+    cursor: pointer;
+}
+.transferAccountNumber{
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.transferamount{
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.inquiryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.bal-Inquiry{
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn1{
+    width: 10vw;
+    height: 7vh;
+    cursor: pointer;
+    margin: 10px 0px;
+    
+}
+.accInfoConatiner{
+    display: none;
+}
+.msg{
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_field{
+    margin: 20px 0px 0px 0px;
+    width: 22vw;
+    height: 7vh;
+    padding: 0px 0px 0px 5px;
+}
+.enter_btn{
+    width: 14.5vw;
+    height: 5vh;
+    cursor: pointer;
+}
+.key-btn{
+    width: 7vw;
+    height: 6vh;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-conteiner{
+    margin: 8px 0px;
+}
+
+.btn3{
+    width: 10vw;
+    height: 7vh;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.menu{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.menu_options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    width: 25vw;
+    height: 7vh;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+.accInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.accInfoBtn{
+    width: 15vw;
+    height: 7vh;
+    cursor: pointer;
+}
+table,th,td{
+    width: 40vw;
+    height: 7vh;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    margin: 10px 0px;
+}
+.deposit-btn{
+    width: 10vw;
+    height: 7vh;
+    cursor: pointer;
+    margin: 10px 0px;
+}
